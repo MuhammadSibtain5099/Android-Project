@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "772053428016",
+    "project_id": "smartsystem-7aaf8",
+    "storage_bucket": "smartsystem-7aaf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772053428016:android:346a18f862282310e68af5",
+        "android_client_info": {
+          "package_name": "com.example.smartintruderalertsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772053428016-urjtkhb4k5nuinafr0infhjadvccnkmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartintruderalertsystem",
+            "certificate_hash": "024aa0f6eebe895321f801190e91852a546c2ae6"
+          }
+        },
+        {
+          "client_id": "772053428016-f6tj73bve6mcg8169snev3ivbuapqmql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMDNp-5hoyfS3aIqFvhaEfDuDQDjFEox8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772053428016-f6tj73bve6mcg8169snev3ivbuapqmql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
