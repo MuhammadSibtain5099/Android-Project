@@ -73,7 +73,9 @@ public class ExampleService extends Service {
                         builder.setContentTitle("Alert !!!");
                         builder.setContentText("Someone is Entered in the Protected Area ... ");
                         builder.setAutoCancel(true);
+                        builder.setPriority(Notification.PRIORITY_LOW);
                         builder.setContentIntent(pendingIntent);
+
                         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(getApplicationContext());
                         notificationManagerCompat.notify(1, builder.build());
                     }
@@ -109,6 +111,7 @@ public class ExampleService extends Service {
                 .setContentText(input)
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentIntent(pendingIntent)
+                .setPriority(Notification.PRIORITY_LOW)
                 .build();
         startForeground(1, notification);
 

@@ -36,7 +36,7 @@ public class Home extends AppCompatActivity {
     TextView lock,persontxt;
     DatabaseReference ref;
     int maxid=0;
- LinearLayout linearLayout;
+    LinearLayout linearLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
